@@ -334,13 +334,14 @@ x = np.arange(0,50)
 plt.plot(x,ep1,label='ep1')
 ```
 ## OUTPUT:
-### Specify the average number of steps achieved within two minutes when the Monte Carlo (MC) control algorithm is initiated with zero-initialized Q-values.
 
-
-   
-### Mention the average number of steps maintained over a four-minute period when the Monte Carlo (MC) control algorithm is executed with pretrained Q-values.
-
-
+<img width="318" alt="{6E4DA385-31F3-47A5-B757-AF91E08D5395}" src="https://github.com/user-attachments/assets/dd9f4360-19dc-4afb-82c8-0d3e980eaa09">
+<br>
+<img width="316" alt="{093507A7-C8D4-45F9-B430-B73FE271AD02}" src="https://github.com/user-attachments/assets/bdf237e5-377c-4c03-bd33-e99925fb7cdf">
+<br>
+<img width="320" alt="{C4302E93-BAE8-41CB-89E5-1511C45BFBD3}" src="https://github.com/user-attachments/assets/5c7badd2-3ed0-4ad1-9529-ebd10714a5be">
+<br>
+<img width="334" alt="{9203BC3C-566F-41A6-BECE-6774D17A7EE0}" src="https://github.com/user-attachments/assets/1d24a1bf-7aa9-439f-a43a-489baf737c05">
 
 ## RESULT:
 The implemented algorithm successfully learned an optimal policy for balancing the pole in the environment, evidenced by an increase in mean steps balanced across episodes. The final policy maximized the expected reward for given states
